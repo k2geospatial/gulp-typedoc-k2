@@ -2,7 +2,7 @@
 
 ## Synopsis
 
-Gulp plugin to execute the TypeDoc tool by Sebastian Lenz
+Fork of Gulp plugin to execute the TypeDoc tool by Sebastian Lenz
 http://typedoc.org
 https://github.com/TypeStrong/typedoc
 

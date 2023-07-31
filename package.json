@@ -1,10 +1,10 @@
 {
-  "name": "gulp-typedoc",
-  "version": "3.0.2",
+  "name": "gulp-typedoc-k2",
+  "version": "3.0.2-k2",
   "description": "Gulp plugin for the TypeDoc typescript documentation tool.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rogierschouten/gulp-typedoc.git"
+    "url": "https://github.com/k2geospatial/gulp-typedoc-k2.git"
   },
   "types": "index.d.ts",
   "main": "index.js",
@@ -18,7 +18,7 @@
     "gulpplugin"
   ],
   "author": {
-    "name": "Rogier Schouten",
+    "name": "Jean Kiepura, forked from Rogier Schouten",
     "url": "https://github.com/rogierschouten/",
     "email": "github@workingcode.ninja"
   },
