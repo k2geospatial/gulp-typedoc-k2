@@ -34,14 +34,8 @@ function typedoc(options) {
 			const json = opts.json;
 			const version = opts.version;
 
-			if (!opts.logger) {
-				// reduce console logging
-				opts.logger = function(message, level, newline) {
-					if (level === 3) {
-						log(colors.red(message));
-					}
-				};
-			}
+			// logger is not supported anymore in typedoc
+			delete opts.logger
 
 			// typedoc instance
 			const app = new typedocModule.Application();
